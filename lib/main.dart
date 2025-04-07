@@ -3,15 +3,12 @@ import 'package:erster_flutter_screen/progress_bar_daily.dart';
 import 'package:erster_flutter_screen/secondary_title.dart';
 import 'package:erster_flutter_screen/side_bar_icon.dart';
 import 'package:flutter/material.dart';
+// import 'package:imagebutton/imagebutton.dart';
+
 
 // fontfamily ?
 
-//Failed to build iOS app
-// Semantic Issue (Xcode): Unknown receiver 'ImageButtonPlugin'; did you mean 'ImagebuttonPlugin'?
-// /Users/grace64/B9_WORKSPACE/Kapital_4/4.3.5_Erster_Flutter_Screen/erster_flutter_screen/ios/Runner/GeneratedPluginRegistrant.m:17:3
-
-// Could not build the application for the simulator.
-// Error launching application on iPhone 16
+// problematic plugin removed from project
 
 void main() {
   runApp(const MainApp());
@@ -117,24 +114,25 @@ class MainApp extends StatelessWidget {
               
               ),
               ),
-         Padding(padding: const EdgeInsets.fromLTRB(200, 0, 0, 12),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.end,
-                //cross axis alignment reagiert nicht ?
-                // crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-              Container(
+         Padding(padding: const EdgeInsets.fromLTRB(76, 0, 0, 48),
+              child: Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                Container(
+                  
+                  width: 52,
+                  height: 52,
+                  decoration: ShapeDecoration(
+                    color: const Color.fromARGB(255, 87, 86, 86),
+                    shape: OvalBorder()
+                    ),
                 
-                width: 52,
-                height: 52,
-                decoration: ShapeDecoration(
-                  color: const Color.fromARGB(255, 87, 86, 86),
-                  shape: OvalBorder()
-                  ),
-
-         )
-        ]
-       )
+                         ),
+                        ],
+                       ),
+              )
       ),
      ],
     ),

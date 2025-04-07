@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - imagebutton (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - imagebutton (from `.symlinks/plugins/imagebutton/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  imagebutton:
+    :path: ".symlinks/plugins/imagebutton/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  imagebutton: 22828571ca8966afb35cb799feff52af17748a24
+
+PODFILE CHECKSUM: 4305caec6b40dde0ae97be1573c53de1882a07e5
+
+COCOAPODS: 1.16.2
